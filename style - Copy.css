@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Bellota Text', cursive;
+}
+body
+{
+   display:flex; 
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   width: 100%;
+   background: #f2f3f7;
+}
+.main
+{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.main .card
+{
+   width: 330px;
+   height: 516px;
+   padding: 60px 30px;
+   margin: 20px;
+   background: #f2f3f7;
+   border-radius: 20px;
+}
+.main .card .content
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.main .card .content .imgBx
+{
+   width: 200px;
+   height: 200px;
+   border-radius: 80%;
+   position: relative;
+   margin-bottom: 20px;
+   overflow: hidden;
+}
+.main .card .content .imgBx img
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.main .card .content .contentBx h4
+{
+   color: #36187d;
+   font-size: 1.7rem;
+   font-weight: bold;
+   text-align: center;
+   letter-spacing: 1px;
+}
+.main .card .content .contentBx h5
+{
+   color: #6c758f;
+   font-size: 1.2rem;
+   font-weight: bold;
+   text-align: center;
+}
+.main .card .content .sci
+{
+   margin-top: 20px;
+}
+.main .card .content .sci a
+{
+   text-decoration: none;
+   color: #6c758f;
+   font-size: 30px;
+   margin: 10px;
+   transition: color 0.4s;
+}
+.main .card .content .sci a:hover
+{
+   color: #0196e3;
+}
+.header{
+   height: 100vh;
+   width: 100%;
+   background-color:white ;
+   background-size: cover;
+   background-position: center
+
+}
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding : 2% 6%;
+}
+nav img{
+   width: 150px;
+}
+.nav-links{
+   flex: 1;
+   text-align: right;
+}
+.nav-links ul li{
+   list-style: none;
+   display:  inline-block;
+   padding: 8px 12px;
+   position: relative;
+   
+}
+.nav-links ul li a{
+    color: #4c1255;
+   text-decoration: none;
+   font-size: 25px;
+}
+.text-box{
+   width: 90%;
+   color:#4c1255 ;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+
+}
+.text-box h1{
+   font-size: 70px;
+   color:#4c1255 ;
+}
